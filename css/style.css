@@ -163,7 +163,7 @@
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
-        min-height: 500px;
+        min-height: 800px;
     }
 
     .header-carousel .owl-carousel-item img {
@@ -353,6 +353,14 @@
     display: inline-block;
     overflow: hidden;
     font-size: 0;
+}
+
+@media (max-width: 540px) {
+    #email-item {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 250px;
+    }
 }
 
 .service-item a.btn-slide i,
